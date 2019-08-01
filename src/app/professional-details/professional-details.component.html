@@ -1,0 +1,9 @@
+<h3>Professional Details</h3>
+<img src ="">
+<div class="personal-details">
+    <p *ngFor = "let detail of details | keyvalue">
+                {{detail.key}}
+        <span>: {{detail.value}}</span>
+    </p>
+</div>
+
